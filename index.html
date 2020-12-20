@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/css.css">
+  <title>Barzi</title>
+
+</head>
+
+<body>
+  <div class="overlay-box" data-index="ipm">
+      <div class="overlay-header">
+        <h1 class="title-form"></h1>
+
+        <button class="close-btn">X</button>
+      </div> 
+      
+      <div id="content"></div>
+  </div>
+
+
+  <div class="wrapper blur">
+    <div class="container">
+      <div class="left-bar">
+
+        <div class="logo-dark">
+          <a href="index.html"><img src="/src/logo_dark.png" alt=""></a>
+        </div>
+      </div>
+
+      <nav>
+        <div class="logo">
+          <img src="src/logo.png" alt="">
+        </div>
+        
+        <ul class="links">
+          <li><a href="#" class="active" data-index="start">Start</a></li>
+          <li><a href="#" class="" data-index="kontakt">Kontakt</a></li>
+          <li><a href="#" class="" data-index="work">Work</a></li>
+        </ul>
+      </nav>
+
+      <div class="content">
+        
+    
+        <section class="start active" data-index="start">
+            <div class="claim">
+              <h1 class="title">Probleme erkenne, besprechen und lösen.</h1>
+            </div>
+            <div class="sub-content">
+              <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ea harum eaque tenetur eum ullam numquam, enim voluptatum odit, esse perferendis facilis voluptatem saepe accusantium.</p>
+            
+              <div class="kontakt-btn" data-index="kontakt-form" data-name="Kontakt">zum Kontaktformular</div>
+            </div>
+              
+        </section>
+
+        <section class="kontakt" data-index="kontakt">
+
+          <div class="text">
+            <h1>Max Muster
+              <span class="address">Musterstraße 1
+                12345 - Musterstadt
+              </span>
+            </h1>
+          </div>
+
+          <div class="kontakt-box">
+            <div class="bar"></div>
+
+            <div class="form">
+              
+              <div class="sec">
+                <h1>VORNAME: </h1>
+                <div class="text-box">
+                  <div class="tape"></div> 
+                  <input class="textbox" type="text">
+                </div>
+              </div>
+
+              <div class="sec">
+                <h1>NACHNAME: </h1>
+                <div class="text-box">
+                  <div class="tape"></div> 
+                  <input class="textbox" type="text">
+                </div>
+              </div>
+
+              <div class="sec">
+                <h1>E-MAIL: </h1>
+                <div class="text-box">
+                  <div class="tape"></div> 
+                  <input class="textbox" type="email">
+                </div>
+              </div>
+
+              <div class="sec">
+                <h1>TELEFON: </h1>
+                <div class="text-box">
+                  <div class="tape"></div> 
+                  <input class="textbox" type="text">
+                </div>
+              </div>
+
+              <div class="sec">
+                <textarea name="" id="" cols="44" rows="10" placeholder="Ihre Nachricht hier..."></textarea>
+              </div>
+
+            </div>
+
+            
+          </div>
+
+        </section>
+
+        <section class="work" data-index="work">
+          <div>
+            <h1 class="title">Lorem Ipsum Dolor</h1>
+            <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, eligendi eveniet possimus voluptates incidunt eos voluptas aut id facilis, iure quis labore distinctio fugiat quisquam omnis recusandae dolorem unde nostrum quam ut fuga accusantium commodi!</p>
+          </div>
+
+          <div class="icons">
+            <img src="/src/icon_java.png" alt="">
+            <img src="/src/icon_html.png" alt="">
+            <img src="/src/icon_php.png" alt="">
+            <img src="/src/icon_js.png" alt="">
+            <img src="/src/icon_css.png" alt="">
+            
+          </div>
+          <div class="kontakt-btn" data-index="kontakt-form" data-name="Kontakt">zum Kontaktformular</div>
+        </section>
+
+        <div class="content-switcher">
+          <div class="section active" data-index="start"></div>
+          <div class="section" data-index="kontakt"></div>
+          <div class="section" data-index="work"></div>
+        </div>
+
+      </div> 
+    </div>
+  </div>
+    <!--Outside of the wrapper-->
+    <div class="ipm" data-index="ipm" data-name="Impressum">impressum</div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
