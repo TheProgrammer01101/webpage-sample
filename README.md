@@ -1,6 +1,5 @@
 # Sample Webpage
-I Made this webpage in the beginning of my internship. 
-The code is written dynamically. DRY principle is implemented ;)
+I made this webpage in the beginning of my internship.
 
 ## Info
 * It's made using pure code only. pure HTML & CSS and Vanilla JavaScript.
