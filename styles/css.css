@@ -99,7 +99,6 @@ body {
 
 .impressum {
   padding: 2rem 2rem;
-
 }
 
 .close-btn {
@@ -246,7 +245,7 @@ a.active::before {
 }
 
 /* CONTENT-KONTAKT */
-.content .kontakt {
+.content section.kontakt {
   display: grid;
   grid-template-columns: 1fr 2fr;
   justify-items: center;
@@ -257,7 +256,7 @@ a.active::before {
   transition: 1s;
 }
 
-.content .kontakt .text {
+.content section.kontakt .text {
   white-space: pre-line;
   text-align: center;
   text-transform: uppercase;
@@ -268,12 +267,12 @@ a.active::before {
   font-weight: lighter;
 }
 
-.content .kontakt .text .address {
+.content section.kontakt .text .address {
   font-size: 1.2vw;
 }
 
 /* kontakt-box*/
-.content .kontakt .kontakt-box {
+.content section.kontakt .kontakt-box {
   margin-top: 2vw;
   background-color: #333;
   color: #fff; /* */
@@ -287,7 +286,7 @@ a.active::before {
   border-radius: 1rem;
 }
 
-.content .kontakt .kontakt-box .bar {
+.content section.kontakt .kontakt-box .bar {
   background: linear-gradient(to bottom,#ff3366, #ff8484);
 
   display: inline-block;
@@ -296,15 +295,15 @@ a.active::before {
 
 }
 
-.content .kontakt .kontakt-box .form .sec h1 {font-size: 1vw;}
-.content .kontakt .kontakt-box .form .sec .text-box {
+.content section.kontakt .kontakt-box .form .field h1 {font-size: 1vw;}
+.content section.kontakt .kontakt-box .form .field .text-box {
   display: flex;
   padding-bottom: 1vw;
   position: relative;
 
 }
 
-.content .kontakt .kontakt-box .form .sec .text-box .tape {
+.content section.kontakt .kontakt-box .form .field .text-box .tape {
   position: relative;
   background-color: #ff3366;
   border-radius: 5rem;
@@ -312,7 +311,7 @@ a.active::before {
   height: 1.5vw;
 }
 
-.content .kontakt .kontakt-box .form .sec .text-box input {
+.content section.kontakt .kontakt-box .form .field .text-box input {
   position: absolute;
   left: 7vw;
   bottom: 1vw;
@@ -323,13 +322,12 @@ a.active::before {
   width: 15vw;
   height: 1vw;
   font-size: 1vw;
-  /* padding: 6px 12px; */
   padding: 0.5vw 1vw;
   outline: none;
 }
 
 
-.content .kontakt .kontakt-box .form .sec textarea {
+.content .kontakt .kontakt-box .form .field textarea {
   width: 22.3vw; 
   font-size: 1vw;
   border-radius: 1rem;
@@ -338,8 +336,8 @@ a.active::before {
   background: linear-gradient(45deg, #ff8484 -150%, #fff 50%);
 }
 
-/* CONTENT-WORK */
-.content .work {
+/* CONTENT-WORK-SECTION */
+.content section.work {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 90%;
@@ -349,29 +347,29 @@ a.active::before {
   transition: 1s;
 }
 
-.content .work .icons {
+.content section.work .icons {
   display: grid;
   grid-template-columns: 10vw 10vw 10vw;
   grid-template-rows: 10vw 10vw;
 
 }
 
-.content .work .icons img {
+.content section.work .icons img {
   width: 12vw;
 }
 
-.content .work .title {
+.content section.work .title {
   color: #ff3366;
   font-size: 3vw;
 }
 
-.content .work .paragraph {
+.content section.work .paragraph {
   padding-top: 3vw;
   line-height: 3vw;
   font-size: 1.5vw;
 }
 
-.content .work .kontakt-btn {
+.content section.work .kontakt-btn {
   transform: translate(38vw, -3vw); 
   width: 70%;
   text-align: center;
@@ -382,7 +380,7 @@ a.active::before {
 }
 
 /* impressum */
-.ipm {
+.impressum-btn {
   position: absolute;
   bottom: 1rem;
   right: 5vw;
@@ -393,7 +391,7 @@ a.active::before {
 
 
 /* CONTENT SWITCHER */
-.content-switcher {
+.page-indicator {
   /* background-color: black; */
   display: flex;
   position: absolute;
@@ -403,7 +401,7 @@ a.active::before {
   
 }
 
-.content-switcher .section {
+.page-indicator .dot {
   background-color: #c8c8c8;
   border: 0.1vw solid #848484;
   padding: 1vw;
@@ -412,7 +410,7 @@ a.active::before {
   cursor: pointer;
 }
 
-.content-switcher .active {
+.page-indicator .active {
   background: linear-gradient(to bottom, #ff3366, #ff8484);
 }
 

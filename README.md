@@ -4,7 +4,7 @@ I made this webpage in the beginning of my internship.
 ## Info
 * It's made using pure code only. pure HTML & CSS and Vanilla JavaScript.
 * Used Javascript to swich content of the page via links and buttons.
-* Used Ajax to show up ipm.html and kontakt-form.html pages in a smooth way without refreshing the page.
+* Used Ajax to show up impressum.html and kontakt-form.html pages in a smooth way without refreshing the page.
 
 ## Used Colors
 
